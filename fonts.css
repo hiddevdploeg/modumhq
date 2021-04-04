@@ -1,0 +1,83 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4026967, 2021-03-15T09:26:43-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Axiforma-Bold by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/bold/
+ * 
+ * Webfont: Axiforma-BoldItalic by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/bold-italic/
+ * 
+ * Webfont: Axiforma-Book by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/book/
+ * 
+ * Webfont: Axiforma-Black by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/black/
+ * 
+ * Webfont: Axiforma-BlackItalic by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/black-italic/
+ * 
+ * Webfont: Axiforma-BookItalic by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/book-italic/
+ * 
+ * Webfont: Axiforma-Italic by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/italic/
+ * 
+ * Webfont: Axiforma-Regular by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/regular/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2017 by Kastelov. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3d7257");
+
+@font-face {
+  font-family: "BlackItalic";
+  src: url("webFonts/AxiformaBlackItalic/font.woff2") format("woff2"),
+    url("webFonts/AxiformaBlackItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("webFonts/AxiformaBold/font.woff2") format("woff2"),
+    url("webFonts/AxiformaBold/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Book";
+  src: url("webFonts/AxiformaBook/font.woff2") format("woff2"),
+    url("webFonts/AxiformaBook/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Black";
+  src: url("webFonts/AxiformaBlack/font.woff2") format("woff2"),
+    url("webFonts/AxiformaBlack/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Italic";
+  src: url("webFonts/AxiformaItalic/font.woff2") format("woff2"),
+    url("webFonts/AxiformaItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("webFonts/AxiformaRegular/font.woff2") format("woff2"),
+    url("webFonts/AxiformaRegular/font.woff") format("woff");
+}
+@font-face {
+  font-family: "BookItalic";
+  src: url("webFonts/AxiformaBookItalic/font.woff2") format("woff2"),
+    url("webFonts/AxiformaBookItalic/font.woff") format("woff");
+}
+@font-face {
+  font-family: "BoldItalic";
+  src: url("webFonts/AxiformaBoldItalic/font.woff2") format("woff2"),
+    url("webFonts/AxiformaBoldItalic/font.woff") format("woff");
+}

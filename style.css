@@ -1,0 +1,50 @@
+@charset "UTF-8";
+html,
+body {
+  font-family: Regular, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: Bold, sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  color: #191c4a;
+}
+
+.logo {
+  width: 96px;
+  height: 64px;
+  background: url(logo-light.svg);
+  background-size: 96px 64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #191c4a;
+    color: #fff;
+  }
+
+  .logo {
+    width: 96px;
+    height: 64px;
+    background: url(logo-dark.svg);
+    background-size: 96px 64px;
+  }
+}
