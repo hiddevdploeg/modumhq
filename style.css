@@ -150,7 +150,7 @@ p.intro {
   .content {
     min-width: calc(100vw - 6rem);
     height: 60vh;
-    min-height: 640px;
+    min-height: 720px;
     padding: 3rem 0;
     padding-left: 2rem;
   }
