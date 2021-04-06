@@ -40,6 +40,16 @@ p.intro {
   opacity: 0.4;
 }
 
+.handle {
+  font-family: Bold, sans-serif;
+  color: #7d41fe;
+  text-decoration: none;
+}
+
+.handle:hover {
+  opacity: 0.7;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
