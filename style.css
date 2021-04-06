@@ -10,6 +10,18 @@ h1 {
   font-size: 1rem;
 }
 
+h2 {
+  font-family: Black, sans-serif;
+  font-size: 2rem;
+  margin: 1rem;  
+}
+
+h3 {
+  font-family: Bold, sans-serif;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
 p {
   font-family: Book, sans-serif;
   max-width: 480px;
@@ -21,6 +33,11 @@ p {
 p.intro {
   font-family: Bold, sans-serif;
   opacity: 1;
+}
+
+.app p {
+  margin: 0px;
+  opacity: 0.4;
 }
 
 .container {
@@ -43,12 +60,14 @@ p.intro {
   padding: 0 3rem;
 }
 .visual {
+  position: relative;
   width: 40vw;
   height: 100vh;
   background: #7d41fe;
 }
 
 .logo {
+  display: block;
   width: 96px;
   height: 64px;
   background: url(logo-light.svg);
@@ -56,10 +75,51 @@ p.intro {
   margin-bottom: 2rem;
 }
 
+.image-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 198px;
+}
+
+.image-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 282px;
+}
+
+.all-apps {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 0 3rem;
+}
+
+.app {
+  padding: 1rem;
+  margin: .5rem 0;
+  color: #fff;
+  text-decoration: none;
+  width: calc(100% - 2rem);
+}
+
+.app:hover {
+  background: rgba(255,255,255,0.1);
+  border-radius: .5rem;
+}
+
 @media (prefers-color-scheme: dark) {
   .content {
     background: #191c4a;
     color: #fff;
+  }
+  
+  .visual {
+    background: #292267;
   }
 
   .logo {
@@ -72,17 +132,46 @@ p.intro {
 
 @media (max-width: 700px) {
   .container {
+    height: auto;
     flex-direction: column;
   }
 
   .content {
     min-width: calc(100vw - 6rem);
-    min-height: 60vh;
-    padding: 3rem;
+    height: 60vh;
+    min-height: 640px;
+    padding: 3rem 0;
+    padding-left: 2rem;
   }
 
   .visual {
     width: 100vw;
-    min-height: 40vh;
+    min-height: 400px;
+    height: 40vh;
   }
+  
+  .all-apps {
+    padding: 0 1rem;
+  }
+  
+  
+  
+  .app {
+    width: calc(100% - 2rem);
+  }
+  
+  .image-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 99px;
+  }
+  
+  .image-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 141px;
+  }
+  
 }
