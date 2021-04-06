@@ -151,8 +151,8 @@ p.intro {
     min-width: calc(100vw - 6rem);
     height: 60vh;
     min-height: 720px;
-    padding: 3rem 0;
-    padding-left: 2rem;
+    width: calc(100vw - 4rem);
+    padding: 3rem 2rem;
   }
 
   .visual {
