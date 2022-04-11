@@ -157,8 +157,8 @@ p.intro {
 
   .visual {
     width: 100vw;
-    min-height: 400px;
-    height: auto;
+    min-height: 640px;
+    height: 40vh;
   }
   
   .all-apps {
