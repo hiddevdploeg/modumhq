@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": ["WSJXBQB984.com.modumhq.nowplaying"],
+                "paths": ["*"]
+            }
+        ]
+    }
+}
